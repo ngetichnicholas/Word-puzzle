@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>Word-puzzle</title>
+</head>
+<body>
+  <div class="container">
+    <h1>No vowels Word-puzzle</h1>
+    <form action="">
+      <div class="form-group">
+        <label for="phrase">Enter a phrase to turn into a puzzle</label>
+        <input class="form-control" type="text" id="response" placeholder="Enter your sentence or phrase">
+      </div>
+      <button type="button" class="btn btn-success" onclick="vowels()">Generate puzzle</button>
+      <p id="output"></p>
+    </form>
+  </div>
+  <script src="js/script.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
